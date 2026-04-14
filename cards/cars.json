@@ -1,0 +1,512 @@
+{
+  "id": "cars",
+  "name": "Cars",
+  "categories": [
+    {
+      "id": "topSpeed",
+      "name": "Top Speed",
+      "icon": "\ud83d\udca8",
+      "unit": "km/h",
+      "isHigherBetter": true
+    },
+    {
+      "id": "acceleration",
+      "name": "0-100 km/h",
+      "icon": "\u23f1\ufe0f",
+      "unit": "s",
+      "isHigherBetter": false
+    },
+    {
+      "id": "engineSize",
+      "name": "Engine Size",
+      "icon": "\u2699\ufe0f",
+      "unit": "L",
+      "isHigherBetter": true
+    },
+    {
+      "id": "cylinders",
+      "name": "Cylinders",
+      "icon": "\ud83d\udee2\ufe0f",
+      "unit": "",
+      "isHigherBetter": true
+    },
+    {
+      "id": "horsepower",
+      "name": "Horsepower",
+      "icon": "\ud83d\udc0e",
+      "unit": "hp",
+      "isHigherBetter": true
+    }
+  ],
+  "cards": [
+    {
+      "id": "AV-001",
+      "name": "Ford Model T",
+      "year": 1908,
+      "stats": {
+        "topSpeed": 72.0,
+        "acceleration": 30.0,
+        "engineSize": 2.9,
+        "cylinders": 4.0,
+        "horsepower": 20.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1908 Ford Model T. Classic black with exaggerated vintage brass era details and slightly chunky wooden spoke wheels. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-002",
+      "name": "Fiat S76 'Beast of Turin'",
+      "year": 1911,
+      "stats": {
+        "topSpeed": 213.0,
+        "acceleration": 15.0,
+        "engineSize": 28.5,
+        "cylinders": 4.0,
+        "horsepower": 290.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1911 Fiat S76 'Beast of Turin'. Exaggerated towering engine hood, deep crimson red, stylized fiery exhaust. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-003",
+      "name": "Bugatti Type 35",
+      "year": 1924,
+      "stats": {
+        "topSpeed": 145.0,
+        "acceleration": 12.0,
+        "engineSize": 2.0,
+        "cylinders": 8.0,
+        "horsepower": 90.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1924 Bugatti Type 35. French Racing Blue, chunky open-wheel Grand Prix racer, prominent horseshoe grille. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-004",
+      "name": "Bentley 4\u00bd Litre Blower",
+      "year": 1929,
+      "stats": {
+        "topSpeed": 222.0,
+        "acceleration": 10.5,
+        "engineSize": 4.4,
+        "cylinders": 4.0,
+        "horsepower": 175.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1929 Bentley 4\u00bd Litre Blower. British Racing Green, exaggerated front supercharger, stylized wire wheels. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-005",
+      "name": "Cadillac V-16",
+      "year": 1930,
+      "stats": {
+        "topSpeed": 160.0,
+        "acceleration": 14.0,
+        "engineSize": 7.4,
+        "cylinders": 16.0,
+        "horsepower": 165.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1930 Cadillac V-16. Luxurious dual-cowl phaeton, two-tone silver and black, chunky elegant chrome. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-006",
+      "name": "Alfa Romeo 8C 2300",
+      "year": 1932,
+      "stats": {
+        "topSpeed": 170.0,
+        "acceleration": 12.0,
+        "engineSize": 2.3,
+        "cylinders": 8.0,
+        "horsepower": 140.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1932 Alfa Romeo 8C 2300. Deep Italian red, exaggerated long sweeping fenders, race-ready stance. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-007",
+      "name": "Bugatti Type 57SC Atlantic",
+      "year": 1936,
+      "stats": {
+        "topSpeed": 200.0,
+        "acceleration": 10.0,
+        "engineSize": 3.3,
+        "cylinders": 8.0,
+        "horsepower": 200.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1936 Bugatti Type 57SC Atlantic. Striking black teardrop shape, pronounced riveted dorsal seam, stylized art deco styling. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-008",
+      "name": "Jaguar XK120",
+      "year": 1948,
+      "stats": {
+        "topSpeed": 193.0,
+        "acceleration": 8.5,
+        "engineSize": 3.4,
+        "cylinders": 6.0,
+        "horsepower": 160.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1948 Jaguar XK120. Sleek cream white roadster, exaggerated flowing aerodynamic lines, chunky rear wheel spats. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-009",
+      "name": "Mercedes-Benz 300 SL",
+      "year": 1954,
+      "stats": {
+        "topSpeed": 263.0,
+        "acceleration": 7.4,
+        "engineSize": 3.0,
+        "cylinders": 6.0,
+        "horsepower": 215.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1954 Mercedes-Benz 300 SL. Metallic silver, exaggerated open Gullwing doors, vibrant red leather interior. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-010",
+      "name": "Porsche 356 Speedster",
+      "year": 1955,
+      "stats": {
+        "topSpeed": 160.0,
+        "acceleration": 13.5,
+        "engineSize": 1.5,
+        "cylinders": 4.0,
+        "horsepower": 60.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1955 Porsche 356 Speedster. Minimalist silver body, cute low curved windshield, stripped-down racing look. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-011",
+      "name": "Chevrolet Bel Air",
+      "year": 1957,
+      "stats": {
+        "topSpeed": 155.0,
+        "acceleration": 11.0,
+        "engineSize": 4.6,
+        "cylinders": 8.0,
+        "horsepower": 283.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1957 Chevrolet Bel Air. Turquoise and white two-tone, massive exaggerated rear tailfins, chunky chrome front end. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-012",
+      "name": "Aston Martin DB4 GT",
+      "year": 1959,
+      "stats": {
+        "topSpeed": 243.0,
+        "acceleration": 6.1,
+        "engineSize": 3.7,
+        "cylinders": 6.0,
+        "horsepower": 302.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1959 Aston Martin DB4 GT. Lightweight Zagato body, deep metallic green, stylized covered headlights. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-013",
+      "name": "Ferrari 250 GTO",
+      "year": 1962,
+      "stats": {
+        "topSpeed": 280.0,
+        "acceleration": 6.1,
+        "engineSize": 3.0,
+        "cylinders": 12.0,
+        "horsepower": 300.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1962 Ferrari 250 GTO. Perfect Rosso Corsa red, exaggerated triple front air vents, chunky wire-spoke wheels, stylized legendary curves. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-014",
+      "name": "Corvette Sting Ray",
+      "year": 1963,
+      "stats": {
+        "topSpeed": 230.0,
+        "acceleration": 5.8,
+        "engineSize": 5.4,
+        "cylinders": 8.0,
+        "horsepower": 360.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1963 Corvette Sting Ray. Split-window coupe, sebring silver, massive aggressive side exhaust pipes. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-015",
+      "name": "Aston Martin DB5",
+      "year": 1964,
+      "stats": {
+        "topSpeed": 230.0,
+        "acceleration": 8.0,
+        "engineSize": 4.0,
+        "cylinders": 6.0,
+        "horsepower": 283.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1964 Aston Martin DB5. Silver birch paint, classic British grand tourer, chunky wire wheels, stylized secret agent vibe. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-016",
+      "name": "Ford GT40 Mk II",
+      "year": 1966,
+      "stats": {
+        "topSpeed": 346.0,
+        "acceleration": 4.2,
+        "engineSize": 7.0,
+        "cylinders": 8.0,
+        "horsepower": 485.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1966 Ford GT40 Mk II. Black with silver racing stripes, ultra-low profile, exaggerated Le Mans winning stance. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-017",
+      "name": "Shelby Cobra 427",
+      "year": 1967,
+      "stats": {
+        "topSpeed": 265.0,
+        "acceleration": 4.2,
+        "engineSize": 7.0,
+        "cylinders": 8.0,
+        "horsepower": 425.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1967 Shelby Cobra 427. Exaggerated muscular flared fenders, guardsman blue with thick white stripes, massive side pipes. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-018",
+      "name": "Dodge Charger R/T",
+      "year": 1969,
+      "stats": {
+        "topSpeed": 220.0,
+        "acceleration": 5.2,
+        "engineSize": 7.2,
+        "cylinders": 8.0,
+        "horsepower": 375.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1969 Dodge Charger R/T. Pitch black muscle car, hidden headlights, exaggerated wide front grille. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-019",
+      "name": "Lamborghini Countach",
+      "year": 1974,
+      "stats": {
+        "topSpeed": 290.0,
+        "acceleration": 5.4,
+        "engineSize": 3.9,
+        "cylinders": 12.0,
+        "horsepower": 375.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1974 Lamborghini Countach. Pure exaggerated wedge shape, striking giallo yellow, scissor doors pointed high, retro-futuristic. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-020",
+      "name": "Ferrari Testarossa",
+      "year": 1984,
+      "stats": {
+        "topSpeed": 290.0,
+        "acceleration": 5.3,
+        "engineSize": 4.9,
+        "cylinders": 12.0,
+        "horsepower": 390.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1984 Ferrari Testarossa. Exaggerated iconic side strakes, bright red, incredibly wide rear stance, 80s synthwave aesthetic. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-021",
+      "name": "Porsche 959",
+      "year": 1987,
+      "stats": {
+        "topSpeed": 317.0,
+        "acceleration": 3.7,
+        "engineSize": 2.8,
+        "cylinders": 6.0,
+        "horsepower": 444.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1987 Porsche 959. Pearlescent white, aerodynamically smoothed body, chunky integrated rear wing, high-tech 80s supercar. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-022",
+      "name": "Ferrari F40",
+      "year": 1987,
+      "stats": {
+        "topSpeed": 324.0,
+        "acceleration": 4.1,
+        "engineSize": 2.9,
+        "cylinders": 8.0,
+        "horsepower": 471.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1987 Ferrari F40. Rosso Corsa, massive blocky rear wing, stylized carbon kevlar weave, stripped down racer look. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-023",
+      "name": "McLaren F1",
+      "year": 1992,
+      "stats": {
+        "topSpeed": 386.0,
+        "acceleration": 3.2,
+        "engineSize": 6.1,
+        "cylinders": 12.0,
+        "horsepower": 618.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1992 McLaren F1. Magnesium silver, visible central driving position, bright gold-lined engine bay, ultimate 90s hypercar. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-024",
+      "name": "Nissan Skyline GT-R (R34)",
+      "year": 1998,
+      "stats": {
+        "topSpeed": 250.0,
+        "acceleration": 4.9,
+        "engineSize": 2.6,
+        "cylinders": 6.0,
+        "horsepower": 276.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 1998 Nissan Skyline GT-R R34. Bayside Blue, oversized quad round taillights, aggressive JDM tuner styling. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-025",
+      "name": "Bugatti Veyron",
+      "year": 2005,
+      "stats": {
+        "topSpeed": 407.0,
+        "acceleration": 2.5,
+        "engineSize": 8.0,
+        "cylinders": 16.0,
+        "horsepower": 1001.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 2005 Bugatti Veyron. Two-tone black and red, exaggerated quad-turbo engine exposed, chunky luxurious hypercar. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-026",
+      "name": "Ferrari 458 Italia",
+      "year": 2009,
+      "stats": {
+        "topSpeed": 325.0,
+        "acceleration": 3.4,
+        "engineSize": 4.5,
+        "cylinders": 8.0,
+        "horsepower": 425.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 2009 Ferrari 458 Italia. Modern flowing lines, oversized triple center exhaust, striking red paint, sharp stylized LED headlights. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-027",
+      "name": "Lexus LFA",
+      "year": 2011,
+      "stats": {
+        "topSpeed": 325.0,
+        "acceleration": 3.7,
+        "engineSize": 4.8,
+        "cylinders": 10.0,
+        "horsepower": 552.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 2011 Lexus LFA. Pearl white, chunky triangular triple exhaust, sharp angular body, stylized acoustic masterpiece. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-028",
+      "name": "Porsche 918 Spyder",
+      "year": 2013,
+      "stats": {
+        "topSpeed": 345.0,
+        "acceleration": 2.6,
+        "engineSize": 4.6,
+        "cylinders": 8.0,
+        "horsepower": 887.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 2013 Porsche 918 Spyder. Liquid metal silver, exaggerated top-exit exhaust pipes glowing slightly, chunky hybrid hypercar stance. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-029",
+      "name": "McLaren P1",
+      "year": 2013,
+      "stats": {
+        "topSpeed": 350.0,
+        "acceleration": 2.8,
+        "engineSize": 3.8,
+        "cylinders": 8.0,
+        "horsepower": 903.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 2013 McLaren P1. Volcano Orange, highly exaggerated aerodynamic curves, bright glowing crescent taillight, lowered track mode. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-030",
+      "name": "LaFerrari",
+      "year": 2014,
+      "stats": {
+        "topSpeed": 350.0,
+        "acceleration": 2.4,
+        "engineSize": 6.3,
+        "cylinders": 12.0,
+        "horsepower": 950.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 2014 LaFerrari. Rosso Corsa, extreme sculptural bodywork, butterfly doors open wide, stylized hybrid V12 hypercar. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-031",
+      "name": "Koenigsegg Regera",
+      "year": 2016,
+      "stats": {
+        "topSpeed": 400.0,
+        "acceleration": 2.8,
+        "engineSize": 5.0,
+        "cylinders": 8.0,
+        "horsepower": 1500.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 2016 Koenigsegg Regera. Exposed tinted blue carbon fiber, massive active rear wing, elegant yet brutally chunky. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-032",
+      "name": "Tesla Model S Plaid",
+      "year": 2021,
+      "stats": {
+        "topSpeed": 322.0,
+        "acceleration": 2.1,
+        "engineSize": 0.0,
+        "cylinders": 0.0,
+        "horsepower": 1020.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 2021 Tesla Model S Plaid. Stealth black, ultra-clean minimalist electric design, launching aggressively on a track with cartoon motion blur. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-033",
+      "name": "Aston Martin Valkyrie",
+      "year": 2022,
+      "stats": {
+        "topSpeed": 402.0,
+        "acceleration": 2.6,
+        "engineSize": 6.5,
+        "cylinders": 12.0,
+        "horsepower": 1140.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 2022 Aston Martin Valkyrie. Extreme F1-inspired aerodynamics, exaggerated open underbody tunnels, deep emerald green. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-034",
+      "name": "Rimac Nevera",
+      "year": 2024,
+      "stats": {
+        "topSpeed": 412.0,
+        "acceleration": 1.8,
+        "engineSize": 0.0,
+        "cylinders": 0.0,
+        "horsepower": 1914.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 2024 Rimac Nevera. Hyper-futuristic electric supercar, metallic blue, sleek aerodynamic lines, glowing neon accents. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-035",
+      "name": "Bugatti Bolide",
+      "year": 2024,
+      "stats": {
+        "topSpeed": 500.0,
+        "acceleration": 2.2,
+        "engineSize": 8.0,
+        "cylinders": 16.0,
+        "horsepower": 1825.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 2024 Bugatti Bolide. Naked carbon fiber with glowing X-shaped headlights, massive oversized rear racing wing, extreme track focus. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "AV-036",
+      "name": "Koenigsegg Jesko Absolut",
+      "year": 2025,
+      "stats": {
+        "topSpeed": 531.0,
+        "acceleration": 2.5,
+        "engineSize": 5.0,
+        "cylinders": 8.0,
+        "horsepower": 1600.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a 2025 Koenigsegg Jesko Absolut. Sleek silver, exaggerated long-tail aerodynamic design optimized for absolute top speed, stylized hypercar. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    }
+  ],
+  "titleImage": "title_cars"
+}

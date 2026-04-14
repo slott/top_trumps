@@ -1,0 +1,512 @@
+{
+  "id": "spaceships",
+  "name": "Spaceships",
+  "titleImage": "title_spaceships",
+  "categories": [
+    {
+      "id": "speed",
+      "name": "Speed",
+      "icon": "\ud83d\ude80",
+      "unit": "c",
+      "isHigherBetter": true
+    },
+    {
+      "id": "maneuvering",
+      "name": "Maneuvering",
+      "icon": "\ud83d\udcab",
+      "unit": "g",
+      "isHigherBetter": true
+    },
+    {
+      "id": "shield",
+      "name": "Shield",
+      "icon": "\ud83d\udee1\ufe0f",
+      "unit": "TJ",
+      "isHigherBetter": true
+    },
+    {
+      "id": "firepower",
+      "name": "Firepower",
+      "icon": "\ud83d\udca5",
+      "unit": "TW",
+      "isHigherBetter": true
+    },
+    {
+      "id": "weight",
+      "name": "Weight",
+      "icon": "\u2696\ufe0f",
+      "unit": "kt",
+      "isHigherBetter": true
+    }
+  ],
+  "cards": [
+    {
+      "id": "SP-001",
+      "name": "Millennium Falcon",
+      "year": 1977,
+      "stats": {
+        "speed": 105.0,
+        "maneuvering": 85.0,
+        "shield": 400.0,
+        "firepower": 250.0,
+        "weight": 2.5
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Millennium Falcon spaceship. Asymmetrical saucer shape, glowing blue rear engine, flying through space. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-002",
+      "name": "X-Wing T-65",
+      "year": 1977,
+      "stats": {
+        "speed": 80.0,
+        "maneuvering": 75.0,
+        "shield": 50.0,
+        "firepower": 120.0,
+        "weight": 0.01
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an X-Wing fighter spaceship. S-foils locked in attack position, rebel alliance markings, glowing pink engines. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-003",
+      "name": "TIE Fighter",
+      "year": 1977,
+      "stats": {
+        "speed": 95.0,
+        "maneuvering": 90.0,
+        "shield": 0.0,
+        "firepower": 80.0,
+        "weight": 0.006
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a TIE Fighter spaceship. Twin hexagonal solar panels, central spherical cockpit, green laser blasts. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-004",
+      "name": "Imperial Star Destroyer",
+      "year": 1977,
+      "stats": {
+        "speed": 40.0,
+        "maneuvering": 10.0,
+        "shield": 8500.0,
+        "firepower": 9000.0,
+        "weight": 40000.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an Imperial Star Destroyer. Massive grey wedge-shaped capital ship, glowing blue engine bells, imposing scale. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-005",
+      "name": "Slave I",
+      "year": 1980,
+      "stats": {
+        "speed": 70.0,
+        "maneuvering": 80.0,
+        "shield": 300.0,
+        "firepower": 350.0,
+        "weight": 1.2
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Slave I spaceship. Vertical flying iron shape, worn green and red Mandalorian paint job. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-006",
+      "name": "A-Wing",
+      "year": 1983,
+      "stats": {
+        "speed": 120.0,
+        "maneuvering": 95.0,
+        "shield": 30.0,
+        "firepower": 90.0,
+        "weight": 0.008
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an A-Wing interceptor spaceship. Sleek red and white arrowhead shape, extremely fast profile. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-007",
+      "name": "B-Wing",
+      "year": 1983,
+      "stats": {
+        "speed": 60.0,
+        "maneuvering": 40.0,
+        "shield": 150.0,
+        "firepower": 400.0,
+        "weight": 0.025
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a B-Wing starfighter. Unique cross-shaped design, rotating cockpit, heavy ordnance. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-008",
+      "name": "Super Star Destroyer",
+      "year": 1980,
+      "stats": {
+        "speed": 20.0,
+        "maneuvering": 2.0,
+        "shield": 95000.0,
+        "firepower": 120000.0,
+        "weight": 8000000.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Super Star Destroyer Executor class. Incredibly long dark grey arrowhead, glowing city-like lights on the surface. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-009",
+      "name": "USS Enterprise (NCC-1701)",
+      "year": 1966,
+      "stats": {
+        "speed": 512.0,
+        "maneuvering": 45.0,
+        "shield": 1200.0,
+        "firepower": 800.0,
+        "weight": 190.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the USS Enterprise NCC-1701 spaceship. Classic grey saucer section, twin red bussard collectors on warp nacelles. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-010",
+      "name": "USS Enterprise-D",
+      "year": 1987,
+      "stats": {
+        "speed": 1500.0,
+        "maneuvering": 30.0,
+        "shield": 4500.0,
+        "firepower": 2500.0,
+        "weight": 4500.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the USS Enterprise-D spaceship. Galaxy class, elegant oval saucer, glowing blue warp nacelles. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-011",
+      "name": "USS Defiant",
+      "year": 1994,
+      "stats": {
+        "speed": 1200.0,
+        "maneuvering": 85.0,
+        "shield": 3000.0,
+        "firepower": 3500.0,
+        "weight": 355.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the USS Defiant spaceship. Compact armored warship, integrated nacelles, firing quantum torpedoes. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-012",
+      "name": "Klingon Bird of Prey",
+      "year": 1984,
+      "stats": {
+        "speed": 800.0,
+        "maneuvering": 75.0,
+        "shield": 900.0,
+        "firepower": 1100.0,
+        "weight": 85.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Klingon Bird of Prey spaceship. Green avian-inspired design, forward swept wings, red disruptor cannons. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-013",
+      "name": "Romulan D'deridex",
+      "year": 1988,
+      "stats": {
+        "speed": 1100.0,
+        "maneuvering": 15.0,
+        "shield": 6000.0,
+        "firepower": 4500.0,
+        "weight": 8500.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Romulan D'deridex Warbird. Massive green split-hull design, glowing green artificial singularity core. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-014",
+      "name": "Borg Cube",
+      "year": 1989,
+      "stats": {
+        "speed": 2000.0,
+        "maneuvering": 5.0,
+        "shield": 50000.0,
+        "firepower": 40000.0,
+        "weight": 250000.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Borg Cube spaceship. Massive geometric asymmetrical mechanical cube, glowing green tech lights. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-015",
+      "name": "USS Voyager",
+      "year": 1995,
+      "stats": {
+        "speed": 2100.0,
+        "maneuvering": 65.0,
+        "shield": 3500.0,
+        "firepower": 1800.0,
+        "weight": 700.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the USS Voyager spaceship. Intrepid class, sleek spoon-shaped saucer, variable geometry warp nacelles. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-016",
+      "name": "Borg Tactical Sphere",
+      "year": 1996,
+      "stats": {
+        "speed": 1800.0,
+        "maneuvering": 25.0,
+        "shield": 25000.0,
+        "firepower": 20000.0,
+        "weight": 90000.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Borg Tactical Sphere. Highly detailed mechanical spherical starship, glowing green technological trenches. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-017",
+      "name": "Rocinante",
+      "year": 2015,
+      "stats": {
+        "speed": 15.0,
+        "maneuvering": 95.0,
+        "shield": 10.0,
+        "firepower": 450.0,
+        "weight": 0.25
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Rocinante corvette spaceship. Realistic hard sci-fi design, dark grey, drive cone glowing with blue fusion plasma. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-018",
+      "name": "MCRN Donnager",
+      "year": 2015,
+      "stats": {
+        "speed": 12.0,
+        "maneuvering": 20.0,
+        "shield": 50.0,
+        "firepower": 3500.0,
+        "weight": 250.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the MCRN Donnager battleship. Massive black and orange blocky military dreadnought, railgun turrets. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-019",
+      "name": "UNN Agatha King",
+      "year": 2017,
+      "stats": {
+        "speed": 10.0,
+        "maneuvering": 15.0,
+        "shield": 40.0,
+        "firepower": 3000.0,
+        "weight": 300.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the UNN Agatha King spaceship. Blocky blue and white Earth military dreadnought, realistic thrusters. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-020",
+      "name": "Razorback",
+      "year": 2017,
+      "stats": {
+        "speed": 25.0,
+        "maneuvering": 100.0,
+        "shield": 2.0,
+        "firepower": 0.0,
+        "weight": 0.05
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Razorback racing pinnace spaceship. Sleek aerodynamic dart-like shape, red and black racing colors. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-021",
+      "name": "The Nauvoo",
+      "year": 2016,
+      "stats": {
+        "speed": 5.0,
+        "maneuvering": 5.0,
+        "shield": 5.0,
+        "firepower": 0.0,
+        "weight": 10000.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Nauvoo generation ship. Massive cylindrical rotating habitat spaceship, realistic hard sci-fi engineering. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-022",
+      "name": "Anubis (Stealth Ship)",
+      "year": 2015,
+      "stats": {
+        "speed": 18.0,
+        "maneuvering": 85.0,
+        "shield": 15.0,
+        "firepower": 600.0,
+        "weight": 0.3
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Anubis stealth spaceship. Matte black, radar-absorbent faceted angles, glowing blue fusion drive. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-023",
+      "name": "Pella",
+      "year": 2020,
+      "stats": {
+        "speed": 16.0,
+        "maneuvering": 88.0,
+        "shield": 12.0,
+        "firepower": 500.0,
+        "weight": 0.28
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Pella Free Navy spaceship. Dark military fast-attack cruiser, realistic hard sci-fi aesthetics. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-024",
+      "name": "Battlestar Galactica",
+      "year": 1978,
+      "stats": {
+        "speed": 20.0,
+        "maneuvering": 10.0,
+        "shield": 500.0,
+        "firepower": 5500.0,
+        "weight": 15000.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Battlestar Galactica. Massive ribbed grey military carrier, twin flight pods, firing flak cannons. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-025",
+      "name": "Viper Mark II",
+      "year": 2004,
+      "stats": {
+        "speed": 85.0,
+        "maneuvering": 95.0,
+        "shield": 0.0,
+        "firepower": 150.0,
+        "weight": 0.015
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Viper Mark II starfighter. White with red racing stripes, three rear thrusters, angular nose. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-026",
+      "name": "Serenity",
+      "year": 2002,
+      "stats": {
+        "speed": 35.0,
+        "maneuvering": 60.0,
+        "shield": 0.0,
+        "firepower": 0.0,
+        "weight": 1.5
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Serenity Firefly-class transport ship. Firefly bug-like glowing rear engine, rotating side thrusters, worn metal. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-027",
+      "name": "Normandy SR-2",
+      "year": 2010,
+      "stats": {
+        "speed": 1800.0,
+        "maneuvering": 80.0,
+        "shield": 1500.0,
+        "firepower": 1200.0,
+        "weight": 12.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Normandy SR-2 spaceship. Sleek white and black stealth frigate, four glowing blue rear engines. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-028",
+      "name": "Pelican Dropship",
+      "year": 2001,
+      "stats": {
+        "speed": 15.0,
+        "maneuvering": 70.0,
+        "shield": 5.0,
+        "firepower": 80.0,
+        "weight": 0.08
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Pelican Dropship spaceship. Green armored military transport, bulky utilitarian design, VTOL thrusters. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-029",
+      "name": "Pillar of Autumn",
+      "year": 2001,
+      "stats": {
+        "speed": 40.0,
+        "maneuvering": 15.0,
+        "shield": 200.0,
+        "firepower": 2500.0,
+        "weight": 9000.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Pillar of Autumn cruiser. Blocky green-grey military spaceship, massive honeycomb engine array at the rear. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-030",
+      "name": "Gunstar",
+      "year": 1984,
+      "stats": {
+        "speed": 75.0,
+        "maneuvering": 95.0,
+        "shield": 200.0,
+        "firepower": 850.0,
+        "weight": 0.05
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Gunstar from Last Starfighter. Symmetrical four-winged cockpit fighter, firing massive lasers. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-031",
+      "name": "Nostromo",
+      "year": 1979,
+      "stats": {
+        "speed": 10.0,
+        "maneuvering": 5.0,
+        "shield": 0.0,
+        "firepower": 0.0,
+        "weight": 63000.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Nostromo commercial towing spaceship. Massive, industrial, towering gothic cathedral-like refinery structure. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-032",
+      "name": "Discovery One",
+      "year": 1968,
+      "stats": {
+        "speed": 8.0,
+        "maneuvering": 2.0,
+        "shield": 0.0,
+        "firepower": 0.0,
+        "weight": 4.5
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Discovery One spaceship. Extremely long spine structure connecting a spherical command module to nuclear exhaust nozzles. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-033",
+      "name": "Heart of Gold",
+      "year": 2005,
+      "stats": {
+        "speed": 9999.0,
+        "maneuvering": 100.0,
+        "shield": 800.0,
+        "firepower": 10.0,
+        "weight": 1.1
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Heart of Gold spaceship. Perfectly spherical sleek white ship, glowing with improbable infinite probability energy. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-034",
+      "name": "Moya",
+      "year": 1999,
+      "stats": {
+        "speed": 500.0,
+        "maneuvering": 40.0,
+        "shield": 0.0,
+        "firepower": 0.0,
+        "weight": 30.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Moya Leviathan spaceship. Organic biomechanical golden-bronze horseshoe crab shape, living spaceship. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-035",
+      "name": "Cylon Raider",
+      "year": 1978,
+      "stats": {
+        "speed": 80.0,
+        "maneuvering": 90.0,
+        "shield": 0.0,
+        "firepower": 120.0,
+        "weight": 0.012
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Cylon Raider starfighter. U-shaped crescent flying wing, mechanical metallic hull, glowing red scanning eye. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "SP-036",
+      "name": "Event Horizon",
+      "year": 1997,
+      "stats": {
+        "speed": 2000.0,
+        "maneuvering": 10.0,
+        "shield": 0.0,
+        "firepower": 0.0,
+        "weight": 55.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Event Horizon spaceship. Crucifix-shaped gothic spacecraft, ominous glowing gravity drive containment core. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    }
+  ]
+}

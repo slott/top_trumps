@@ -1,0 +1,512 @@
+{
+  "id": "trains",
+  "name": "Trains",
+  "categories": [
+    {
+      "id": "topSpeed",
+      "name": "Top Speed",
+      "icon": "\ud83d\ude84",
+      "unit": "km/h",
+      "isHigherBetter": true
+    },
+    {
+      "id": "weight",
+      "name": "Weight",
+      "icon": "\u2696\ufe0f",
+      "unit": "t",
+      "isHigherBetter": true
+    },
+    {
+      "id": "length",
+      "name": "Length",
+      "icon": "\ud83d\udccf",
+      "unit": "m",
+      "isHigherBetter": true
+    },
+    {
+      "id": "power",
+      "name": "Engine Power",
+      "icon": "\u26a1",
+      "unit": "hp",
+      "isHigherBetter": true
+    },
+    {
+      "id": "introYear",
+      "name": "Introduction",
+      "icon": "\ud83d\udcc5",
+      "unit": "",
+      "isHigherBetter": false
+    }
+  ],
+  "cards": [
+    {
+      "id": "TR-001",
+      "name": "Stephenson's Rocket",
+      "year": 1829,
+      "stats": {
+        "topSpeed": 48.0,
+        "weight": 4.3,
+        "length": 7.3,
+        "power": 20.0,
+        "introYear": 1829.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of Stephenson's Rocket train from 1829. Vintage yellow and black, prominent steam funnel. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-002",
+      "name": "Flying Scotsman",
+      "year": 1923,
+      "stats": {
+        "topSpeed": 161.0,
+        "weight": 97.0,
+        "length": 21.0,
+        "power": 2200.0,
+        "introYear": 1923.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Flying Scotsman steam locomotive. Iconic apple green livery. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-003",
+      "name": "Mallard",
+      "year": 1938,
+      "stats": {
+        "topSpeed": 203.0,
+        "weight": 104.0,
+        "length": 22.0,
+        "power": 2600.0,
+        "introYear": 1938.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the LNER Class A4 4468 Mallard. Aerodynamic garter blue steam engine. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-004",
+      "name": "Big Boy",
+      "year": 1941,
+      "stats": {
+        "topSpeed": 130.0,
+        "weight": 548.0,
+        "length": 40.0,
+        "power": 6290.0,
+        "introYear": 1941.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Union Pacific Big Boy. Massive black articulated steam locomotive, exaggerated scale. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-005",
+      "name": "Shinkansen Series 0",
+      "year": 1964,
+      "stats": {
+        "topSpeed": 210.0,
+        "weight": 64.0,
+        "length": 25.0,
+        "power": 3000.0,
+        "introYear": 1964.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the original Shinkansen Series 0 bullet train. White and blue, rounded nose. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-006",
+      "name": "TGV Sud-Est",
+      "year": 1981,
+      "stats": {
+        "topSpeed": 300.0,
+        "weight": 385.0,
+        "length": 200.0,
+        "power": 8600.0,
+        "introYear": 1981.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the TGV Sud-Est train. Iconic striking orange high-speed train. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-007",
+      "name": "Eurostar e300",
+      "year": 1993,
+      "stats": {
+        "topSpeed": 300.0,
+        "weight": 752.0,
+        "length": 387.0,
+        "power": 16400.0,
+        "introYear": 1993.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Eurostar e300 class 373 train. Yellow and white front. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-008",
+      "name": "Shanghai Maglev",
+      "year": 2004,
+      "stats": {
+        "topSpeed": 431.0,
+        "weight": 200.0,
+        "length": 153.0,
+        "power": 12000.0,
+        "introYear": 2004.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Shanghai Maglev train. Sleek futuristic hovering design. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-009",
+      "name": "L0 Series Maglev",
+      "year": 2027,
+      "stats": {
+        "topSpeed": 603.0,
+        "weight": 140.0,
+        "length": 140.0,
+        "power": 18000.0,
+        "introYear": 2027.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Japanese L0 Series Maglev. Extremely elongated aerodynamic nose, white and blue. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-010",
+      "name": "Siemens Charger",
+      "year": 2016,
+      "stats": {
+        "topSpeed": 201.0,
+        "weight": 120.0,
+        "length": 21.0,
+        "power": 4400.0,
+        "introYear": 2016.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Siemens Charger modern diesel-electric locomotive. Bright sleek passenger design. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-011",
+      "name": "EMD SD70MAC",
+      "year": 1993,
+      "stats": {
+        "topSpeed": 110.0,
+        "weight": 188.0,
+        "length": 22.0,
+        "power": 4000.0,
+        "introYear": 1993.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an EMD SD70MAC freight locomotive. Chunky brutalist industrial design, heavy duty. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-012",
+      "name": "ICE 4",
+      "year": 2017,
+      "stats": {
+        "topSpeed": 265.0,
+        "weight": 670.0,
+        "length": 346.0,
+        "power": 13300.0,
+        "introYear": 2017.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the ICE 4 high-speed train. Clean white with a red stripe, modern German engineering. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-013",
+      "name": "TGV Duplex",
+      "year": 1995,
+      "stats": {
+        "topSpeed": 320.0,
+        "weight": 380.0,
+        "length": 200.0,
+        "power": 12000.0,
+        "introYear": 1995.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the TGV Duplex. Double-decker aerodynamic design, silver and blue. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-014",
+      "name": "Acela Express",
+      "year": 2000,
+      "stats": {
+        "topSpeed": 240.0,
+        "weight": 565.0,
+        "length": 202.0,
+        "power": 12200.0,
+        "introYear": 2000.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Amtrak Acela Express. Sleek silver and blue American passenger train. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-015",
+      "name": "Shinkansen N700",
+      "year": 2007,
+      "stats": {
+        "topSpeed": 300.0,
+        "weight": 715.0,
+        "length": 404.0,
+        "power": 23000.0,
+        "introYear": 2007.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Shinkansen N700 series bullet train. Duck-bill aerodynamic nose, white with blue stripe. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-016",
+      "name": "ICE 3",
+      "year": 2000,
+      "stats": {
+        "topSpeed": 330.0,
+        "weight": 409.0,
+        "length": 200.0,
+        "power": 10700.0,
+        "introYear": 2000.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the German ICE 3 high-speed train. Clean white with a red stripe, rounded modern front. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-017",
+      "name": "EMD F7",
+      "year": 1949,
+      "stats": {
+        "topSpeed": 164.0,
+        "weight": 104.0,
+        "length": 15.0,
+        "power": 1500.0,
+        "introYear": 1949.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an EMD F7 diesel locomotive. Classic bulldog nose, Santa Fe red and silver warbonnet livery. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-018",
+      "name": "GE AC4400CW",
+      "year": 1993,
+      "stats": {
+        "topSpeed": 120.0,
+        "weight": 195.0,
+        "length": 22.0,
+        "power": 4400.0,
+        "introYear": 1993.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a GE AC4400CW heavy freight locomotive. Massive, industrial, bright yellow Union Pacific colors. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-019",
+      "name": "Bombardier Traxx",
+      "year": 2000,
+      "stats": {
+        "topSpeed": 140.0,
+        "weight": 84.0,
+        "length": 18.0,
+        "power": 7500.0,
+        "introYear": 2000.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Bombardier Traxx electric locomotive. Clean European design, bright red and white. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-020",
+      "name": "Siemens Vectron",
+      "year": 2010,
+      "stats": {
+        "topSpeed": 200.0,
+        "weight": 90.0,
+        "length": 19.0,
+        "power": 8600.0,
+        "introYear": 2010.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Siemens Vectron locomotive. Modern angular Euro design, sleek metallic finish. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-021",
+      "name": "EMD SD40-2",
+      "year": 1972,
+      "stats": {
+        "topSpeed": 105.0,
+        "weight": 167.0,
+        "length": 20.0,
+        "power": 3000.0,
+        "introYear": 1972.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an EMD SD40-2 freight train. Long hood, rugged industrial American railway workhorse. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-022",
+      "name": "PRR GG1",
+      "year": 1934,
+      "stats": {
+        "topSpeed": 160.0,
+        "weight": 216.0,
+        "length": 24.0,
+        "power": 4620.0,
+        "introYear": 1934.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Pennsylvania Railroad GG1. Streamlined Art Deco electric locomotive, dark green with gold pinstripes. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-023",
+      "name": "LMS Coronation Class",
+      "year": 1937,
+      "stats": {
+        "topSpeed": 183.0,
+        "weight": 164.0,
+        "length": 22.0,
+        "power": 2500.0,
+        "introYear": 1937.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the LMS Coronation Class steam engine. Streamlined metallic blue and silver art deco styling. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-024",
+      "name": "SNCF CC 7100",
+      "year": 1952,
+      "stats": {
+        "topSpeed": 331.0,
+        "weight": 107.0,
+        "length": 18.0,
+        "power": 5800.0,
+        "introYear": 1952.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the SNCF CC 7100 electric locomotive. Vintage two-tone green French design, speed record breaker. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-025",
+      "name": "ETR 500",
+      "year": 1993,
+      "stats": {
+        "topSpeed": 300.0,
+        "weight": 570.0,
+        "length": 328.0,
+        "power": 11800.0,
+        "introYear": 1993.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Italian ETR 500 high-speed train. Sleek red and white design, aerodynamic Italian style. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-026",
+      "name": "Talgo 350",
+      "year": 2001,
+      "stats": {
+        "topSpeed": 330.0,
+        "weight": 322.0,
+        "length": 200.0,
+        "power": 10700.0,
+        "introYear": 2001.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Spanish Talgo 350 train. Distinctive duck-billed nose, white with purple accents. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-027",
+      "name": "CRH380A",
+      "year": 2010,
+      "stats": {
+        "topSpeed": 380.0,
+        "weight": 380.0,
+        "length": 203.0,
+        "power": 12800.0,
+        "introYear": 2010.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Chinese CRH380A high-speed train. Extremely sleek aerodynamic silver bullet design. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-028",
+      "name": "EMD DDA40X",
+      "year": 1969,
+      "stats": {
+        "topSpeed": 145.0,
+        "weight": 245.0,
+        "length": 30.0,
+        "power": 6600.0,
+        "introYear": 1969.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the EMD DDA40X Centennial. The longest and most powerful diesel-electric locomotive, massive yellow beast. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-029",
+      "name": "SP GS-4 Daylight",
+      "year": 1941,
+      "stats": {
+        "topSpeed": 177.0,
+        "weight": 215.0,
+        "length": 33.0,
+        "power": 5500.0,
+        "introYear": 1941.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Southern Pacific GS-4 Daylight steam engine. Vibrant orange, red, and black streamlined colors. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-030",
+      "name": "DRG Class 05",
+      "year": 1935,
+      "stats": {
+        "topSpeed": 200.0,
+        "weight": 129.0,
+        "length": 26.0,
+        "power": 3400.0,
+        "introYear": 1935.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the German DRG Class 05. Fully streamlined dark red steam locomotive covering the wheels. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-031",
+      "name": "WAP-7",
+      "year": 2000,
+      "stats": {
+        "topSpeed": 140.0,
+        "weight": 123.0,
+        "length": 20.0,
+        "power": 6350.0,
+        "introYear": 2000.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Indian Railways WAP-7. Utilitarian white and blue electric passenger locomotive. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-032",
+      "name": "KTX-Sancheon",
+      "year": 2010,
+      "stats": {
+        "topSpeed": 330.0,
+        "weight": 403.0,
+        "length": 201.0,
+        "power": 11800.0,
+        "introYear": 2010.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Korean KTX-Sancheon bullet train. Modeled after a cherry salmon, sleek white and blue. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-033",
+      "name": "SBB Ae 6/6",
+      "year": 1952,
+      "stats": {
+        "topSpeed": 125.0,
+        "weight": 120.0,
+        "length": 18.0,
+        "power": 5800.0,
+        "introYear": 1952.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Swiss SBB Ae 6/6 electric locomotive. Classic dark green with silver Swiss cross emblem. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-034",
+      "name": "Class 5E (Blue Train)",
+      "year": 1955,
+      "stats": {
+        "topSpeed": 105.0,
+        "weight": 84.0,
+        "length": 15.0,
+        "power": 2000.0,
+        "introYear": 1955.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the South African Class 5E pulling the Blue Train. Elegant sapphire blue and gold livery. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-035",
+      "name": "X2000",
+      "year": 1990,
+      "stats": {
+        "topSpeed": 210.0,
+        "weight": 343.0,
+        "length": 140.0,
+        "power": 4400.0,
+        "introYear": 1990.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Swedish X2000 tilting train. Distinctive grey and blue slanted modern nose. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "TR-036",
+      "name": "Frecciarossa 1000",
+      "year": 2015,
+      "stats": {
+        "topSpeed": 400.0,
+        "weight": 454.0,
+        "length": 202.0,
+        "power": 13100.0,
+        "introYear": 2015.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Italian Frecciarossa 1000. Striking red high-speed train, ultra-modern aerodynamic bullet shape. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    }
+  ],
+  "titleImage": "title_trains"
+}

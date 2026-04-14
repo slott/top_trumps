@@ -1,0 +1,555 @@
+{
+  "id": "jets",
+  "name": "Jets",
+  "categories": [
+    {
+      "id": "speed",
+      "name": "Top Speed",
+      "icon": "\ud83d\ude80",
+      "unit": "km/h",
+      "isHigherBetter": true
+    },
+    {
+      "id": "range",
+      "name": "Range",
+      "icon": "\u26fd",
+      "unit": "km",
+      "isHigherBetter": true
+    },
+    {
+      "id": "thrust",
+      "name": "Thrust",
+      "icon": "\ud83d\udd25",
+      "unit": "kN",
+      "isHigherBetter": true
+    },
+    {
+      "id": "ceiling",
+      "name": "Service Ceiling",
+      "icon": "\u2601\ufe0f",
+      "unit": "m",
+      "isHigherBetter": true
+    },
+    {
+      "id": "length",
+      "name": "Length",
+      "icon": "\ud83d\udccf",
+      "unit": "m",
+      "isHigherBetter": true
+    },
+    {
+      "id": "wingspan",
+      "name": "Wingspan",
+      "icon": "\u2708\ufe0f",
+      "unit": "m",
+      "isHigherBetter": true
+    }
+  ],
+  "cards": [
+    {
+      "id": "JT-001",
+      "name": "SR-71 Blackbird",
+      "year": 1966,
+      "stats": {
+        "speed": 3529.0,
+        "range": 5400.0,
+        "thrust": 289.0,
+        "ceiling": 25900.0,
+        "length": 32.7,
+        "wingspan": 16.9
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the SR-71 Blackbird. Matte black, sleek futuristic wedge shape. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-002",
+      "name": "F-22 Raptor",
+      "year": 2005,
+      "stats": {
+        "speed": 2414.0,
+        "range": 2960.0,
+        "thrust": 312.0,
+        "ceiling": 20000.0,
+        "length": 18.9,
+        "wingspan": 13.6
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an F-22 Raptor stealth fighter. Angular stealth grey surfaces, glowing blue engine exhaust. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-003",
+      "name": "F-14 Tomcat",
+      "year": 1974,
+      "stats": {
+        "speed": 2485.0,
+        "range": 2960.0,
+        "thrust": 234.0,
+        "ceiling": 16000.0,
+        "length": 19.1,
+        "wingspan": 19.5
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an F-14 Tomcat fighter jet. Variable-sweep wings extended, classic military grey. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-004",
+      "name": "F-35 Lightning II",
+      "year": 2015,
+      "stats": {
+        "speed": 1930.0,
+        "range": 2220.0,
+        "thrust": 191.0,
+        "ceiling": 15000.0,
+        "length": 15.6,
+        "wingspan": 10.7
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an F-35 Lightning II. High-tech stealth contours, modern grey. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-005",
+      "name": "F-15 Eagle",
+      "year": 1976,
+      "stats": {
+        "speed": 3017.0,
+        "range": 5550.0,
+        "thrust": 212.0,
+        "ceiling": 20000.0,
+        "length": 19.4,
+        "wingspan": 13.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an F-15 Eagle fighter. Chunky twin-tail design, air superiority profile. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-006",
+      "name": "F-16 Fighting Falcon",
+      "year": 1978,
+      "stats": {
+        "speed": 2120.0,
+        "range": 4220.0,
+        "thrust": 127.0,
+        "ceiling": 15240.0,
+        "length": 15.0,
+        "wingspan": 9.9
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an F-16 Fighting Falcon. Sleek agile single-engine jet, bubble canopy. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-007",
+      "name": "Mikoyan MiG-25",
+      "year": 1970,
+      "stats": {
+        "speed": 3000.0,
+        "range": 1730.0,
+        "thrust": 200.0,
+        "ceiling": 20700.0,
+        "length": 23.8,
+        "wingspan": 14.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Soviet MiG-25 Foxbat. Massive boxy air intakes, heavy steel construction. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-008",
+      "name": "Sukhoi Su-57",
+      "year": 2020,
+      "stats": {
+        "speed": 2130.0,
+        "range": 3500.0,
+        "thrust": 216.0,
+        "ceiling": 20000.0,
+        "length": 20.1,
+        "wingspan": 14.1
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Sukhoi Su-57. Flat aggressive aerodynamic shape, digital camouflage pattern. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-009",
+      "name": "Eurofighter Typhoon",
+      "year": 2003,
+      "stats": {
+        "speed": 2495.0,
+        "range": 2900.0,
+        "thrust": 180.0,
+        "ceiling": 19812.0,
+        "length": 15.9,
+        "wingspan": 10.9
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Eurofighter Typhoon. Delta wing design with canards, European coalition markings. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-010",
+      "name": "A-10 Thunderbolt II",
+      "year": 1977,
+      "stats": {
+        "speed": 706.0,
+        "range": 4150.0,
+        "thrust": 80.0,
+        "ceiling": 13700.0,
+        "length": 16.2,
+        "wingspan": 17.5
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an A-10 Warthog. Massive front gatling gun, chunky durable airframe, green camouflage. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-011",
+      "name": "B-2 Spirit",
+      "year": 1997,
+      "stats": {
+        "speed": 1010.0,
+        "range": 11000.0,
+        "thrust": 300.0,
+        "ceiling": 15200.0,
+        "length": 21.0,
+        "wingspan": 52.4
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a B-2 Spirit stealth bomber. Pure flying wing design, dark grey radar-absorbent material. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-012",
+      "name": "Dassault Rafale",
+      "year": 2001,
+      "stats": {
+        "speed": 1912.0,
+        "range": 3700.0,
+        "thrust": 150.0,
+        "ceiling": 15835.0,
+        "length": 15.2,
+        "wingspan": 10.9
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Dassault Rafale. Elegant French delta wing fighter jet, grey with subtle blue tints. Vibrant colors, clean studio lighting. No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-013",
+      "name": "F-4 Phantom II",
+      "year": 1960,
+      "stats": {
+        "speed": 2370.0,
+        "range": 2600.0,
+        "thrust": 158.0,
+        "ceiling": 18300.0,
+        "length": 19.2,
+        "wingspan": 11.7
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an F-4 Phantom II fighter jet. Iconic bent wings, trailing smoke, rugged military look. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-014",
+      "name": "MiG-21 Fishbed",
+      "year": 1959,
+      "stats": {
+        "speed": 2175.0,
+        "range": 1210.0,
+        "thrust": 70.0,
+        "ceiling": 19000.0,
+        "length": 14.7,
+        "wingspan": 7.1
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Soviet MiG-21 Fishbed. Distinctive nose cone air intake, delta wings, bare metal finish. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-015",
+      "name": "MiG-29 Fulcrum",
+      "year": 1982,
+      "stats": {
+        "speed": 2400.0,
+        "range": 1430.0,
+        "thrust": 162.0,
+        "ceiling": 18000.0,
+        "length": 17.3,
+        "wingspan": 11.3
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a MiG-29 Fulcrum. Wide blended wing body, twin tails, agile dogfighter stance. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-016",
+      "name": "Su-27 Flanker",
+      "year": 1985,
+      "stats": {
+        "speed": 2500.0,
+        "range": 3530.0,
+        "thrust": 245.0,
+        "ceiling": 19000.0,
+        "length": 21.9,
+        "wingspan": 14.7
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Sukhoi Su-27 Flanker. Large graceful air superiority fighter, blue camouflage pattern. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-017",
+      "name": "Dassault Mirage 2000",
+      "year": 1984,
+      "stats": {
+        "speed": 2336.0,
+        "range": 1550.0,
+        "thrust": 95.0,
+        "ceiling": 17060.0,
+        "length": 14.3,
+        "wingspan": 9.1
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Dassault Mirage 2000. Classic French delta wing design, sleek and compact. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-018",
+      "name": "F-117 Nighthawk",
+      "year": 1983,
+      "stats": {
+        "speed": 1130.0,
+        "range": 1720.0,
+        "thrust": 94.0,
+        "ceiling": 13716.0,
+        "length": 20.0,
+        "wingspan": 13.2
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an F-117 Nighthawk stealth attack aircraft. Faceted diamond-like black geometric shape. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-019",
+      "name": "B-1B Lancer",
+      "year": 1986,
+      "stats": {
+        "speed": 1335.0,
+        "range": 9400.0,
+        "thrust": 546.0,
+        "ceiling": 18000.0,
+        "length": 44.5,
+        "wingspan": 41.8
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a B-1B Lancer 'Bone' bomber. Swept wings, sleek supersonic bomber profile, dark grey. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-020",
+      "name": "B-52 Stratofortress",
+      "year": 1955,
+      "stats": {
+        "speed": 1046.0,
+        "range": 14200.0,
+        "thrust": 604.0,
+        "ceiling": 15000.0,
+        "length": 48.5,
+        "wingspan": 56.4
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a B-52 Stratofortress bomber. Massive wingspan with eight underslung jet engines. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-021",
+      "name": "Concorde",
+      "year": 1976,
+      "stats": {
+        "speed": 2179.0,
+        "range": 7222.0,
+        "thrust": 676.0,
+        "ceiling": 18300.0,
+        "length": 61.6,
+        "wingspan": 25.6
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the Concorde supersonic passenger jet. Droop snoot nose, elegant white delta wing design. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-022",
+      "name": "Tu-160 White Swan",
+      "year": 1987,
+      "stats": {
+        "speed": 2220.0,
+        "range": 12300.0,
+        "thrust": 980.0,
+        "ceiling": 16000.0,
+        "length": 54.1,
+        "wingspan": 55.7
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Tupolev Tu-160 White Swan. Massive white variable-sweep wing heavy strategic bomber. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-023",
+      "name": "Avro Vulcan",
+      "year": 1956,
+      "stats": {
+        "speed": 1038.0,
+        "range": 4171.0,
+        "thrust": 356.0,
+        "ceiling": 19800.0,
+        "length": 29.5,
+        "wingspan": 30.1
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an Avro Vulcan bomber. Huge distinctive tailless delta wing, anti-flash white or camo. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-024",
+      "name": "English Electric Lightning",
+      "year": 1959,
+      "stats": {
+        "speed": 2414.0,
+        "range": 1370.0,
+        "thrust": 142.0,
+        "ceiling": 16000.0,
+        "length": 16.8,
+        "wingspan": 10.6
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an English Electric Lightning. Vertically stacked twin engines, extreme swept wing angle. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-025",
+      "name": "F-104 Starfighter",
+      "year": 1958,
+      "stats": {
+        "speed": 2330.0,
+        "range": 2623.0,
+        "thrust": 70.0,
+        "ceiling": 15000.0,
+        "length": 16.6,
+        "wingspan": 6.3
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an F-104 Starfighter. 'Missile with a man in it', impossibly stubby wings, silver needle shape. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-026",
+      "name": "F-86 Sabre",
+      "year": 1949,
+      "stats": {
+        "speed": 1106.0,
+        "range": 2454.0,
+        "thrust": 26.0,
+        "ceiling": 15120.0,
+        "length": 11.4,
+        "wingspan": 11.9
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an F-86 Sabre. Classic early jet age swept wing fighter, shiny aluminum, nose intake. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-027",
+      "name": "MiG-15",
+      "year": 1949,
+      "stats": {
+        "speed": 1076.0,
+        "range": 2520.0,
+        "thrust": 22.0,
+        "ceiling": 15500.0,
+        "length": 10.1,
+        "wingspan": 10.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Soviet MiG-15. Short and stubby swept-wing early jet fighter, high tail. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-028",
+      "name": "Hawker Hunter",
+      "year": 1954,
+      "stats": {
+        "speed": 1150.0,
+        "range": 3060.0,
+        "thrust": 45.0,
+        "ceiling": 15240.0,
+        "length": 14.0,
+        "wingspan": 10.2
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Hawker Hunter. Elegant British swept wing fighter, graceful curves, camo paint. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-029",
+      "name": "JAS 39 Gripen",
+      "year": 1996,
+      "stats": {
+        "speed": 2460.0,
+        "range": 3200.0,
+        "thrust": 80.0,
+        "ceiling": 15240.0,
+        "length": 14.1,
+        "wingspan": 8.4
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Swedish JAS 39 Gripen. Compact multirole fighter, canard delta design, light grey. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-030",
+      "name": "Chengdu J-20",
+      "year": 2017,
+      "stats": {
+        "speed": 2400.0,
+        "range": 5500.0,
+        "thrust": 294.0,
+        "ceiling": 20000.0,
+        "length": 21.2,
+        "wingspan": 13.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Chengdu J-20 Mighty Dragon. Large stealth fighter, forward canards, futuristic angular shape. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-031",
+      "name": "F-111 Aardvark",
+      "year": 1967,
+      "stats": {
+        "speed": 2655.0,
+        "range": 5950.0,
+        "thrust": 224.0,
+        "ceiling": 20100.0,
+        "length": 22.4,
+        "wingspan": 19.2
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an F-111 Aardvark. Variable-sweep wing tactical bomber, low level flight, dumping fuel fire. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-032",
+      "name": "F/A-18 Hornet",
+      "year": 1983,
+      "stats": {
+        "speed": 1915.0,
+        "range": 3330.0,
+        "thrust": 158.0,
+        "ceiling": 15000.0,
+        "length": 17.1,
+        "wingspan": 12.3
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an F/A-18 Hornet. Twin engine carrier-capable fighter, angled vertical stabilizers. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-033",
+      "name": "XB-70 Valkyrie",
+      "year": 1964,
+      "stats": {
+        "speed": 3309.0,
+        "range": 6900.0,
+        "thrust": 747.0,
+        "ceiling": 23600.0,
+        "length": 56.3,
+        "wingspan": 32.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of the XB-70 Valkyrie experimental bomber. Long white swan-like neck, massive delta wing with folding tips. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-034",
+      "name": "U-2 Dragon Lady",
+      "year": 1956,
+      "stats": {
+        "speed": 805.0,
+        "range": 10300.0,
+        "thrust": 75.0,
+        "ceiling": 24000.0,
+        "length": 19.2,
+        "wingspan": 31.4
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a U-2 Dragon Lady spy plane. Glider-like ultra-long wingspan, matte black finish. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-035",
+      "name": "Messerschmitt Me 262",
+      "year": 1944,
+      "stats": {
+        "speed": 900.0,
+        "range": 1050.0,
+        "thrust": 17.0,
+        "ceiling": 11450.0,
+        "length": 10.6,
+        "wingspan": 12.6
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Messerschmitt Me 262. The first operational jet fighter, shark-like profile, underwing engines. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    },
+    {
+      "id": "JT-036",
+      "name": "Gloster Meteor",
+      "year": 1944,
+      "stats": {
+        "speed": 965.0,
+        "range": 965.0,
+        "thrust": 31.0,
+        "ceiling": 13100.0,
+        "length": 12.5,
+        "wingspan": 13.1
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Gloster Meteor. Early British twin-jet fighter, straight wings, engine nacelles integrated into wings. Vibrant colors, clean studio lighting, No text overlay. Simple gradient background. Target size 1440x1080. --format=webp --quality=80"
+    }
+  ],
+  "titleImage": "title_jets"
+}
