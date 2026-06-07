@@ -1,3 +1,10 @@
 {
-  "sets": ["cars", "jets", "spaceships", "trains"]
+  "sets": [
+    "cars",
+    "jets",
+    "spaceships",
+    "trains",
+    "tanks",
+    "racing_cars"
+  ]
 }

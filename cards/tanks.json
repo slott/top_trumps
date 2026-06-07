@@ -1,0 +1,397 @@
+{
+  "id": "tanks",
+  "name": "Tanks",
+  "titleImage": "title_tanks",
+  "categories": [
+    {
+      "id": "topSpeed",
+      "name": "Top Speed",
+      "icon": "\ud83d\udca8",
+      "unit": "km/h",
+      "isHigherBetter": true
+    },
+    {
+      "id": "weight",
+      "name": "Weight",
+      "icon": "\u2696\ufe0f",
+      "unit": "t",
+      "isHigherBetter": true
+    },
+    {
+      "id": "crew",
+      "name": "Crew",
+      "icon": "\ud83d\udc65",
+      "unit": "",
+      "isHigherBetter": true
+    },
+    {
+      "id": "power",
+      "name": "Engine Power",
+      "icon": "\u26a1",
+      "unit": "hp",
+      "isHigherBetter": true
+    }
+  ],
+  "cards": [
+    {
+      "id": "TK-001",
+      "name": "\"Chieftain\" heavy tank",
+      "year": 1970,
+      "stats": {
+        "topSpeed": 40.0,
+        "weight": 52.2,
+        "crew": 4.0,
+        "power": 700.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a British Chieftain Mk 5 main battle tank. Clean sandy-brown or green camo studio colors, exaggerated chunky tracks and main cannon barrel. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-002",
+      "name": "\"Leopard\" Medium tank",
+      "year": 1965,
+      "stats": {
+        "topSpeed": 65.0,
+        "weight": 42.4,
+        "crew": 4.0,
+        "power": 820.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a German Leopard 1 medium tank. Olive green studio paint, slightly exaggerated angular turret and main gun. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-003",
+      "name": "M 48 Tank",
+      "year": 1952,
+      "stats": {
+        "topSpeed": 51.0,
+        "weight": 47.6,
+        "crew": 4.0,
+        "power": 865.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an American M48 Patton medium tank. Classic dark green, slightly rounded chunky turret with an exaggerated cupola. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-004",
+      "name": "Medium tank T62",
+      "year": 1961,
+      "stats": {
+        "topSpeed": 50.0,
+        "weight": 38.0,
+        "crew": 4.0,
+        "power": 520.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Soviet T-62 main battle tank. Dark forest green, very flat rounded dome turret and long thin gun barrel. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-005",
+      "name": "AMX 30 Tank",
+      "year": 1966,
+      "stats": {
+        "topSpeed": 45.0,
+        "weight": 36.0,
+        "crew": 4.0,
+        "power": 700.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a French AMX-30 tank. Clean tan-brown paint, sleek turret and medium cannon. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-006",
+      "name": "Armoured personnel carrier M113",
+      "year": 1960,
+      "stats": {
+        "topSpeed": 64.0,
+        "weight": 10.4,
+        "crew": 13.0,
+        "power": 210.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an American M113 armored personnel carrier. Boxy green metal hull, tiny hatch and tracks, chunky and cute vehicle proportions. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-007",
+      "name": "\"Sheridan\" M551 reconnaissance tank",
+      "year": 1967,
+      "stats": {
+        "topSpeed": 70.0,
+        "weight": 15.3,
+        "crew": 4.0,
+        "power": 300.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an American M551 Sheridan light tank. Small and compact green body, wide short turret and main gun. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-008",
+      "name": "Abbot F.V. 433 Light howitzer tank",
+      "year": 1965,
+      "stats": {
+        "topSpeed": 48.0,
+        "weight": 16.0,
+        "crew": 4.0,
+        "power": 240.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a British FV433 Abbot self-propelled gun. Boxy chassis, high-profile turret with a large 105mm gun. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-009",
+      "name": "AMX 13 Tank",
+      "year": 1952,
+      "stats": {
+        "topSpeed": 60.0,
+        "weight": 17.0,
+        "crew": 3.0,
+        "power": 270.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a French AMX-13 light tank with its unique oscillating turret. Tan color, small tracks. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-010",
+      "name": "AMX 10 P Tank",
+      "year": 1973,
+      "stats": {
+        "topSpeed": 65.0,
+        "weight": 14.5,
+        "crew": 11.0,
+        "power": 280.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a French AMX-10P armored infantry vehicle. Sloped angular front, tiny turret gun, olive camo paint. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-011",
+      "name": "SU-100 Tank",
+      "year": 1944,
+      "stats": {
+        "topSpeed": 53.0,
+        "weight": 32.0,
+        "crew": 4.0,
+        "power": 500.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Soviet SU-100 tank destroyer. Casemate turretless design with a long gun protruding directly from the sloped green front hull. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-012",
+      "name": "ZSU-57/2",
+      "year": 1955,
+      "stats": {
+        "topSpeed": 48.0,
+        "weight": 28.1,
+        "crew": 5.0,
+        "power": 520.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Soviet ZSU-57-2 anti-aircraft tank. Open-topped wide turret with two long twin-barrel autocannons pointing upwards. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-013",
+      "name": "\"Pluton\" anti rocket tank",
+      "year": 1974,
+      "stats": {
+        "topSpeed": 60.0,
+        "weight": 0.0,
+        "crew": 4.0,
+        "power": 700.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a French Pluton tactical nuclear missile launcher. AMX-30 chassis carrying an enormous white rocket missile in a launching cradle on top. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-014",
+      "name": "M-107 Howitzer",
+      "year": 1962,
+      "stats": {
+        "topSpeed": 50.0,
+        "weight": 26.5,
+        "crew": 12.0,
+        "power": 420.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an American M107 self-propelled gun. Open-mount long heavy artillery cannon barrel pointing skyward on a low-profile green track chassis. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-015",
+      "name": "M-109 Medium Howitzer",
+      "year": 1963,
+      "stats": {
+        "topSpeed": 56.0,
+        "weight": 24.6,
+        "crew": 6.0,
+        "power": 430.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an American M109 howitzer. Tall, blocky green turret with a thick, short cannon pointing slightly up. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-016",
+      "name": "M 88 Recovery Tank",
+      "year": 1960,
+      "stats": {
+        "topSpeed": 50.0,
+        "weight": 52.0,
+        "crew": 4.0,
+        "power": 826.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an American M66 heavy armored recovery vehicle. Heavy crane booms and winch gear mounted on a thick green Patton tank chassis. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-017",
+      "name": "AMX 30 Recovery Tank",
+      "year": 1970,
+      "stats": {
+        "topSpeed": 60.0,
+        "weight": 36.0,
+        "crew": 4.0,
+        "power": 700.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a French AMX-30 DNG recovery tank. No turret, featuring a folding crane arm and front bulldozer spade. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-018",
+      "name": "AMX 30 Bridge Tank",
+      "year": 1972,
+      "stats": {
+        "topSpeed": 50.0,
+        "weight": 43.5,
+        "crew": 3.0,
+        "power": 700.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a French AMX-30 scissor-bridge layer tank. Large folded metal bridge span resting on top of the chassis. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-019",
+      "name": "AMX 30 AA Tank",
+      "year": 1970,
+      "stats": {
+        "topSpeed": 65.0,
+        "weight": 36.0,
+        "crew": 4.0,
+        "power": 700.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a French AMX-30 anti-aircraft tank. Sleek radar dome on back of a flat turret with two 30mm autocannons. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-020",
+      "name": "M 48 Bridge Tank",
+      "year": 1958,
+      "stats": {
+        "topSpeed": 45.0,
+        "weight": 58.4,
+        "crew": 2.0,
+        "power": 865.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of an American M48 AVLB bridge layer. Carrying a heavy folded scissor-bridge frame on top of a dark green Patton hull. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-021",
+      "name": "61 Tank",
+      "year": 1961,
+      "stats": {
+        "topSpeed": 50.0,
+        "weight": 37.0,
+        "crew": 4.0,
+        "power": 630.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Swiss Panzer 61 main battle tank. Smooth cast-hull armor in light gray-green color, compact turret. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-022",
+      "name": "68 AA 2 Tank",
+      "year": 1970,
+      "stats": {
+        "topSpeed": 60.0,
+        "weight": 40.0,
+        "crew": 4.0,
+        "power": 700.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Swiss Flakpanzer 68 anti-aircraft tank. Carrying a high radar turret with twin side-mounted anti-aircraft guns in gray-green. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-023",
+      "name": "IKV 91 Light Tank",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 64.0,
+        "weight": 15.5,
+        "crew": 3.0,
+        "power": 330.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Swedish IKV 91 light tank destroyer. Low profile, sleek angular gray-green chassis and medium gun. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-024",
+      "name": "Bgbv 82 Recovery Tank",
+      "year": 1972,
+      "stats": {
+        "topSpeed": 56.0,
+        "weight": 26.3,
+        "crew": 4.0,
+        "power": 310.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Swedish Bgbv 82 armored recovery vehicle. Heavy winches, boxy light-green hull. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-025",
+      "name": "Brobr 941 Bridge Tank",
+      "year": 1973,
+      "stats": {
+        "topSpeed": 56.0,
+        "weight": 28.4,
+        "crew": 4.0,
+        "power": 310.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Swedish Brobr 941 bridge layer carrying a launch mechanism on a boxy light-green chassis. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-026",
+      "name": "Marder Tank",
+      "year": 1971,
+      "stats": {
+        "topSpeed": 70.0,
+        "weight": 28.2,
+        "crew": 10.0,
+        "power": 600.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a German Marder 1 infantry fighting vehicle. Sleek sloped metallic-green hull, tiny remote weapon turret on top, chunky tracks. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-027",
+      "name": "\"Standard\" Recovery Tank",
+      "year": 1966,
+      "stats": {
+        "topSpeed": 65.0,
+        "weight": 40.0,
+        "crew": 4.0,
+        "power": 820.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a German Bergepanzer 2 armored recovery vehicle. Based on Leopard 1 hull, featuring a crane arm folded on the right side. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-028",
+      "name": "Anti Aircraft tank 1",
+      "year": 1976,
+      "stats": {
+        "topSpeed": 62.0,
+        "weight": 41.7,
+        "crew": 3.0,
+        "power": 830.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a German Gepard anti-aircraft tank. Leopard chassis with a large turret sporting twin Oerlikon autocannons on the sides and a radar dish on the back. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-029",
+      "name": "\"Trojan\" Armoured Personnel Carrier",
+      "year": 1965,
+      "stats": {
+        "topSpeed": 52.0,
+        "weight": 14.3,
+        "crew": 12.0,
+        "power": 240.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a Canadian Trojan armored personnel carrier. Boxy green body with extra stowage bins. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "TK-030",
+      "name": "Armoured Tank",
+      "year": 1967,
+      "stats": {
+        "topSpeed": 70.0,
+        "weight": 25.0,
+        "crew": 4.0,
+        "power": 500.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a German Jagdpanzer Kanone tank destroyer. Very low profile, casemate style with gun mounted inside the flat front hull. Polished claymation or vinyl toy look, centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    }
+  ]
+}

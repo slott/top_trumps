@@ -1,0 +1,499 @@
+{
+  "id": "racing_cars",
+  "name": "Racing Cars",
+  "titleImage": "title_racing_cars",
+  "categories": [
+    {
+      "id": "topSpeed",
+      "name": "Top Speed",
+      "icon": "\ud83d\udca8",
+      "unit": "km/h",
+      "isHigherBetter": true
+    },
+    {
+      "id": "power",
+      "name": "Power",
+      "icon": "\u26a1",
+      "unit": "hp",
+      "isHigherBetter": true
+    },
+    {
+      "id": "rpm",
+      "name": "Max RPM",
+      "icon": "\ud83d\udd04",
+      "unit": "r/min",
+      "isHigherBetter": true
+    },
+    {
+      "id": "engineSize",
+      "name": "Engine Size",
+      "icon": "\u2699\ufe0f",
+      "unit": "cc",
+      "isHigherBetter": true
+    },
+    {
+      "id": "cylinders",
+      "name": "Cylinders",
+      "icon": "\ud83d\udee2\ufe0f",
+      "unit": "",
+      "isHigherBetter": true
+    },
+    {
+      "id": "weight",
+      "name": "Weight",
+      "icon": "\u2696\ufe0f",
+      "unit": "kg",
+      "isHigherBetter": false
+    }
+  ],
+  "cards": [
+    {
+      "id": "RC-001",
+      "name": "Ferrari 312 T",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 320.0,
+        "power": 500.0,
+        "rpm": 12500.0,
+        "engineSize": 3000.0,
+        "cylinders": 12.0,
+        "weight": 580.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Ferrari 312 T classic Formula 1 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-002",
+      "name": "Martini-Brabham BT 44 B",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 300.0,
+        "power": 480.0,
+        "rpm": 10600.0,
+        "engineSize": 3000.0,
+        "cylinders": 8.0,
+        "weight": 578.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Martini-Brabham BT 44 B classic Formula 1 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-003",
+      "name": "Marlboro-McLaren M 23",
+      "year": 1973,
+      "stats": {
+        "topSpeed": 310.0,
+        "power": 480.0,
+        "rpm": 10600.0,
+        "engineSize": 3000.0,
+        "cylinders": 8.0,
+        "weight": 585.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Marlboro-McLaren M 23 classic Formula 1 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-004",
+      "name": "Lavazza-March 751",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 310.0,
+        "power": 480.0,
+        "rpm": 10600.0,
+        "engineSize": 3000.0,
+        "cylinders": 8.0,
+        "weight": 575.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Lavazza-March 751 classic Formula 1 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-005",
+      "name": "Hesketh 308/2",
+      "year": 1974,
+      "stats": {
+        "topSpeed": 305.0,
+        "power": 480.0,
+        "rpm": 10600.0,
+        "engineSize": 3000.0,
+        "cylinders": 8.0,
+        "weight": 580.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Hesketh 308/2 classic Formula 1 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-006",
+      "name": "Tyrrell 007",
+      "year": 1974,
+      "stats": {
+        "topSpeed": 315.0,
+        "power": 480.0,
+        "rpm": 10600.0,
+        "engineSize": 3000.0,
+        "cylinders": 8.0,
+        "weight": 585.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Tyrrell 007 classic Formula 1 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-007",
+      "name": "JPS-Lotus 72 D",
+      "year": 1972,
+      "stats": {
+        "topSpeed": 310.0,
+        "power": 480.0,
+        "rpm": 10600.0,
+        "engineSize": 3000.0,
+        "cylinders": 8.0,
+        "weight": 580.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic JPS-Lotus 72 D classic Formula 1 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-008",
+      "name": "Fittipaldi FD 02",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 290.0,
+        "power": 475.0,
+        "rpm": 10500.0,
+        "engineSize": 3000.0,
+        "cylinders": 8.0,
+        "weight": 602.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Fittipaldi FD 02 classic Formula 1 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-009",
+      "name": "Martini Mk 16-BMW-Schnitzer",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 295.0,
+        "power": 290.0,
+        "rpm": 9600.0,
+        "engineSize": 2000.0,
+        "weight": 475.0,
+        "cylinders": 4.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Martini Mk 16-BMW-Schnitzer vintage Formula 2 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-010",
+      "name": "Elf 2-BMW",
+      "year": 1974,
+      "stats": {
+        "topSpeed": 290.0,
+        "power": 285.0,
+        "rpm": 9500.0,
+        "engineSize": 2000.0,
+        "weight": 475.0,
+        "cylinders": 4.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Elf 2-BMW vintage Formula 2 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-011",
+      "name": "March 752-BMW",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 295.0,
+        "power": 285.0,
+        "rpm": 9500.0,
+        "engineSize": 2000.0,
+        "cylinders": 4.0,
+        "weight": 475.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic March 752-BMW vintage Formula 2 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-012",
+      "name": "March 742-BMW",
+      "year": 1974,
+      "stats": {
+        "topSpeed": 290.0,
+        "power": 285.0,
+        "rpm": 9500.0,
+        "engineSize": 2000.0,
+        "cylinders": 4.0,
+        "weight": 475.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic March 742-BMW vintage Formula 2 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-013",
+      "name": "Elf 2-J-BMW-Schnitzer",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 290.0,
+        "power": 290.0,
+        "rpm": 9600.0,
+        "engineSize": 2000.0,
+        "weight": 475.0,
+        "cylinders": 4.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Elf 2-J-BMW-Schnitzer vintage Formula 2 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-014",
+      "name": "Chevron B 29-Ford",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 275.0,
+        "power": 280.0,
+        "rpm": 9000.0,
+        "cylinders": 4.0,
+        "weight": 475.0,
+        "engineSize": 2000.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Chevron B 29-Ford vintage Formula 2 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-015",
+      "name": "Osella FA 2-BMW",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 285.0,
+        "power": 285.0,
+        "rpm": 9500.0,
+        "engineSize": 2000.0,
+        "cylinders": 4.0,
+        "weight": 475.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Osella FA 2-BMW vintage Formula 2 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-016",
+      "name": "March 752-Hart",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 285.0,
+        "power": 280.0,
+        "rpm": 9000.0,
+        "engineSize": 2000.0,
+        "cylinders": 4.0,
+        "weight": 475.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic March 752-Hart vintage Formula 2 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-017",
+      "name": "GRD-BMW",
+      "year": 1973,
+      "stats": {
+        "topSpeed": 270.0,
+        "power": 160.0,
+        "rpm": 6500.0,
+        "engineSize": 2000.0,
+        "cylinders": 4.0,
+        "weight": 440.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic GRD-BMW classic Formula 3 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-018",
+      "name": "Modus M 1",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 270.0,
+        "power": 155.0,
+        "rpm": 6200.0,
+        "engineSize": 2000.0,
+        "cylinders": 4.0,
+        "weight": 445.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Modus M 1 classic Formula 3 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-019",
+      "name": "Ray 75",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 270.0,
+        "power": 157.0,
+        "rpm": 6300.0,
+        "engineSize": 2000.0,
+        "cylinders": 4.0,
+        "weight": 440.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Ray 75 classic Formula 3 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-020",
+      "name": "Brabham BT 41",
+      "year": 1973,
+      "stats": {
+        "topSpeed": 270.0,
+        "power": 155.0,
+        "rpm": 6200.0,
+        "engineSize": 2000.0,
+        "cylinders": 4.0,
+        "weight": 440.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Brabham BT 41 classic Formula 3 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-021",
+      "name": "March 753-Ford",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 270.0,
+        "power": 157.0,
+        "rpm": 6200.0,
+        "engineSize": 2000.0,
+        "weight": 440.0,
+        "cylinders": 4.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic March 753-Ford classic Formula 3 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-022",
+      "name": "Maco",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 270.0,
+        "power": 155.0,
+        "rpm": 6200.0,
+        "engineSize": 2000.0,
+        "weight": 440.0,
+        "cylinders": 4.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Maco classic Formula 3 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-023",
+      "name": "Safir RJ 03",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 270.0,
+        "power": 155.0,
+        "rpm": 6200.0,
+        "engineSize": 2000.0,
+        "cylinders": 4.0,
+        "weight": 440.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Safir RJ 03 classic Formula 3 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-024",
+      "name": "CRS",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 270.0,
+        "power": 160.0,
+        "rpm": 6500.0,
+        "engineSize": 2000.0,
+        "cylinders": 4.0,
+        "weight": 440.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic CRS classic Formula 3 open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-025",
+      "name": "ATS-Lola T 324",
+      "year": 1974,
+      "stats": {
+        "topSpeed": 250.0,
+        "power": 150.0,
+        "rpm": 6800.0,
+        "engineSize": 1600.0,
+        "cylinders": 4.0,
+        "weight": 400.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic ATS-Lola T 324 classic Formula Super V open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-026",
+      "name": "EB SV 1600",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 250.0,
+        "power": 150.0,
+        "rpm": 6800.0,
+        "engineSize": 1600.0,
+        "weight": 400.0,
+        "cylinders": 4.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic EB SV 1600 classic Formula Super V open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-027",
+      "name": "Elden",
+      "year": 1974,
+      "stats": {
+        "topSpeed": 250.0,
+        "power": 150.0,
+        "rpm": 6800.0,
+        "engineSize": 1600.0,
+        "cylinders": 4.0,
+        "weight": 400.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Elden classic Formula Super V open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-028",
+      "name": "Fuchs SV 1600",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 250.0,
+        "power": 150.0,
+        "rpm": 6800.0,
+        "engineSize": 1600.0,
+        "weight": 400.0,
+        "cylinders": 4.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Fuchs SV 1600 classic Formula Super V open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-029",
+      "name": "Horag-Giger Has 6",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 250.0,
+        "power": 150.0,
+        "rpm": 6800.0,
+        "cylinders": 4.0,
+        "weight": 400.0,
+        "engineSize": 1600.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Horag-Giger Has 6 classic Formula Super V open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-030",
+      "name": "Kaimann SV",
+      "year": 1974,
+      "stats": {
+        "topSpeed": 250.0,
+        "power": 150.0,
+        "rpm": 6800.0,
+        "engineSize": 1600.0,
+        "cylinders": 4.0,
+        "weight": 400.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Kaimann SV classic Formula Super V open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-031",
+      "name": "Lola",
+      "year": 1974,
+      "stats": {
+        "topSpeed": 250.0,
+        "power": 150.0,
+        "rpm": 6800.0,
+        "engineSize": 1600.0,
+        "cylinders": 4.0,
+        "weight": 400.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Lola classic Formula Super V open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    },
+    {
+      "id": "RC-032",
+      "name": "Supernova",
+      "year": 1975,
+      "stats": {
+        "topSpeed": 250.0,
+        "power": 150.0,
+        "rpm": 6800.0,
+        "engineSize": 1600.0,
+        "cylinders": 4.0,
+        "weight": 400.0
+      },
+      "imagePrompt": "A slightly cartoonish, stylized 3D illustration of a classic Supernova classic Formula Super V open-wheel racing car. Clean studio paint, exaggerated chunky rubber slick tires, detailed aerodynamic wing elements, polished claymation or vinyl toy look. Centered subject, clean studio lighting, simple colored gradient background. No text overlays."
+    }
+  ]
+}
